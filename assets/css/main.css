@@ -1,0 +1,284 @@
+@media (max-width: 960px) {
+  header .navbar-brand .logo {
+    width: 75%;
+  }
+}
+header .navbar h1 {
+  color: #00BFC0;
+  font-size: 2rem;
+}
+@media (max-width: 960px) {
+  header .navbar h1 {
+    font-size: 1.5rem;
+  }
+}
+header .navbar .navbar-toggler .navbar-toggler-icon .fa-bars {
+  color: #731702;
+  font-size: 2rem;
+}
+header .navbar .navbar-nav {
+  text-align: right;
+}
+header .navbar .navbar-nav .nav-item .nav-link {
+  color: #731702;
+  font-size: 1.2rem;
+}
+@media (min-width: 960px) and (max-width: 1440px) {
+  header .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1440px) {
+  header .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+header .navbar .navbar-nav .nav-item .dropdown-menu {
+  background-color: rgba(226, 226, 226, 0.7);
+  border: none;
+}
+@media (max-width: 960px) {
+  header .navbar .navbar-nav .nav-item .dropdown-menu {
+    background-color: transparent;
+    text-align: right;
+  }
+}
+header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: #1F2326;
+  padding: 0.5rem 1.25rem;
+}
+header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:active {
+  background-color: rgba(226, 226, 226, 0.5);
+}
+header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: transparent;
+}
+@media (max-width: 960px) {
+  header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+footer {
+  background-color: #731702;
+}
+footer .social-link {
+  height: 30px;
+  width: 30px;
+  background-color: #F2541B;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+footer .social-link i {
+  color: white;
+  font-size: 1.1rem;
+}
+footer h3 {
+  color: #F2541B;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+footer .nav .nav-item .nav-link {
+  padding: 0.5rem 3rem 0.5rem 0;
+  color: white;
+}
+
+.description, .vision {
+  border-top: 1px solid #731702;
+  border-bottom: 1px solid #731702;
+}
+.description .avatar-border, .vision .avatar-border {
+  width: 220px;
+  height: 300px;
+  border: 20px solid #731702;
+  border-radius: 20px;
+  position: relative;
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .description .avatar-border, .vision .avatar-border {
+    border: 15px solid #731702;
+    width: 180px;
+    height: 260px;
+  }
+}
+.description .avatar, .vision .avatar {
+  width: 220px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .description .avatar, .vision .avatar {
+    width: 180px;
+    height: 260px;
+  }
+}
+.description .avatar .avatar-img, .vision .avatar .avatar-img {
+  width: 100%;
+}
+.description .name, .vision .name {
+  color: #731702;
+  font-size: 3.5rem;
+}
+@media (max-width: 540px) {
+  .description .name, .vision .name {
+    font-size: 2.2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  .description .name, .vision .name {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1300px) {
+  .description .name, .vision .name {
+    font-size: 2.5rem;
+  }
+}
+.description .motto, .vision .motto {
+  color: #F2541B;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 540px) {
+  .description .motto, .vision .motto {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  .description .motto, .vision .motto {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1300px) {
+  .description .motto, .vision .motto {
+    font-size: 2rem;
+  }
+}
+.description .about, .vision .about {
+  color: #1F2326;
+  font-size: 1.7rem;
+}
+@media (max-width: 540px) {
+  .description .about, .vision .about {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  .description .about, .vision .about {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1300px) {
+  .description .about, .vision .about {
+    font-size: 1.5rem;
+  }
+}
+
+.vision {
+  border: none;
+}
+.vision .btn-up {
+  height: 40px;
+  width: 40px;
+  background-color: #F2541B;
+  border-radius: 10px;
+  padding-left: 9px;
+  padding-top: 7px;
+}
+.vision .btn-up.fixed-bottom {
+  right: 2rem;
+  bottom: 2rem;
+  left: auto;
+}
+.vision .btn-up i {
+  color: white;
+  font-size: 1.5rem;
+}
+.vision .title {
+  color: #731702;
+  font-size: 2.1rem;
+  margin-bottom: 1.2rem;
+}
+@media (max-width: 540px) {
+  .vision .title {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  .vision .title {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .vision .title {
+    font-size: 2rem;
+  }
+}
+.vision .figure {
+  height: 390px;
+  width: 390px;
+  margin: auto;
+  display: block;
+}
+@media (max-width: 525px) {
+  .vision .figure {
+    width: 250px;
+    height: 250px;
+  }
+}
+.vision .figure .vision-image, .vision .figure .vision-image-border {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 3;
+}
+@media (max-width: 525px) {
+  .vision .figure .vision-image, .vision .figure .vision-image-border {
+    width: 150px;
+    height: 150px;
+  }
+}
+.vision .figure .vision-image .torah, .vision .figure .vision-image-border .torah {
+  height: 100%;
+}
+.vision .figure .vision-image-border {
+  border: 20px solid #F2541B;
+  top: 70px;
+  left: calc(50% - 125px);
+  z-index: -1;
+  background-color: #fff;
+}
+@media (max-width: 525px) {
+  .vision .figure .vision-image-border {
+    border: 15px solid #F2541B;
+    top: 50px;
+    left: calc(50% - 80px);
+  }
+}
+.vision .figure .image-torah {
+  top: 140px;
+  left: calc(50% - 55px);
+  z-index: -2;
+}
+@media (max-width: 525px) {
+  .vision .figure .image-torah {
+    top: 100px;
+    left: calc(50% - 40px);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

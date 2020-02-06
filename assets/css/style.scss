@@ -1,0 +1,109 @@
+$title-color: #731702;
+$text-color: #1F2326;
+$secondary-color: #F2541B;
+
+header {
+  .navbar-brand {
+    .logo {
+      @media(max-width: 960px) {
+        width: 75%;
+      }
+    }
+  }
+
+  .navbar {
+    h1 {
+      color: #00BFC0;
+      font-size: 2rem;
+      @media (max-width: 960px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    .navbar-toggler {
+      .navbar-toggler-icon {
+        .fa-bars {
+          color: $title-color;
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .navbar-nav {
+      text-align: right;
+
+      .nav-item {
+        .nav-link {
+          color: $title-color;
+          font-size: 1.2rem;
+          @media (min-width: 960px) and (max-width: 1440px) {
+            font-size: 0.9rem;
+          }
+          @media (min-width: 1440px) {
+            font-size: 1rem;
+            padding: 0 1rem;
+          }
+        }
+
+        .dropdown-menu {
+          background-color: rgba(226, 226, 226, 0.7);
+          border: none;
+          @media (max-width: 960px) {
+            background-color: transparent;
+            text-align: right;
+          }
+
+          .dropdown-item {
+            color: $text-color;
+            padding: 0.5rem 1.25rem;
+
+            &:active {
+              background-color: rgba(226, 226, 226, 0.5);
+            }
+
+            &:hover {
+              background-color: transparent;
+            }
+
+            @media (max-width: 960px) {
+              padding: 0.5rem 0.5rem;
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer{
+  background-color: $title-color;
+  .social-link{
+    height: 30px;
+    width: 30px;
+    background-color: $secondary-color;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    i{
+      color: white;
+      font-size: 1.1rem;
+    }
+  }
+  h3{
+    color: $secondary-color;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .nav{
+    .nav-item{
+      .nav-link{
+        padding: 0.5rem 3rem 0.5rem 0;
+        color: white;
+      }
+    }
+  }
+}

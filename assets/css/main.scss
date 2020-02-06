@@ -1,0 +1,162 @@
+@import 'style';
+
+.description, .vision {
+  border-top: 1px solid $title-color;
+  border-bottom: 1px solid $title-color;
+  .avatar-border {
+    width: 220px;
+    height: 300px;
+    border: 20px solid $title-color;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    @media(max-width: 768px) {
+      border: 15px solid $title-color;
+      width: 180px;
+      height: 260px;
+    }
+  }
+
+  .avatar {
+    width: 220px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    display: inline-block;
+    @media(max-width: 768px) {
+      width: 180px;
+      height: 260px;
+    }
+
+    .avatar-img {
+      width: 100%;
+    }
+  }
+
+  .name {
+    color: $title-color;
+    font-size: 3.5rem;
+    @media(max-width: 540px) {
+      font-size: 2.2rem;
+    }
+    @media (min-width: 540px) and (max-width: 768px) {
+      font-size: 2rem;
+    }
+    @media (min-width: 768px) and (max-width: 1300px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  .motto {
+    color: $secondary-color;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    @media(max-width: 540px) {
+      font-size: 1.2rem;
+    }
+    @media (min-width: 540px) and (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+    @media (min-width: 768px) and (max-width: 1300px) {
+      font-size: 2rem;
+    }
+  }
+
+  .about {
+    color: $text-color;
+    font-size: 1.7rem;
+    @media(max-width: 540px) {
+      font-size: 0.9rem;
+    }
+    @media (min-width: 540px) and (max-width: 768px) {
+      font-size: 1.2rem;
+    }
+    @media (min-width: 768px) and (max-width: 1300px) {
+      font-size: 1.5rem;
+    }
+  }
+}
+.vision{
+  border: none;
+  .btn-up{
+    height: 40px;
+    width: 40px;
+    background-color: $secondary-color;
+    border-radius: 10px;
+    padding-left: 9px;
+    padding-top: 7px;
+    &.fixed-bottom{
+      right: 2rem;
+      bottom: 2rem;
+      left: auto;
+    }
+    i{
+      color: white;
+      font-size: 1.5rem;
+    }
+  }
+  .title{
+    color: $title-color;
+    font-size: 2.1rem;
+    margin-bottom: 1.2rem;
+    @media(max-width: 540px) {
+      font-size: 1.5rem;
+    }
+    @media (min-width: 540px) and (max-width: 768px) {
+      font-size: 1.8rem;
+    }
+    @media (min-width: 768px) and (max-width: 1400px) {
+      font-size: 2rem;
+    }
+  }
+  .figure{
+    height: 390px;
+    width: 390px;
+    margin: auto;
+    display: block;
+    @media(max-width: 525px) {
+      width: 250px;
+      height: 250px;
+    }
+    .vision-image, .vision-image-border{
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      border-radius: 20px;
+      overflow: hidden;
+      z-index: 3;
+      @media(max-width: 525px) {
+        width: 150px;
+        height: 150px;
+      }
+      .torah{
+        height: 100%;
+      }
+    }
+    .vision-image-border{
+      border: 20px solid $secondary-color;
+      top: 70px;
+      left: calc(50% - 125px);
+      z-index: -1;
+      background-color: #fff;
+      @media(max-width: 525px) {
+        border: 15px solid $secondary-color;
+        top: 50px;
+        left: calc(50% - 80px);
+      }
+    }
+    .image-torah{
+      top: 140px;
+      left: calc(50% - 55px);
+      z-index: -2;
+      @media(max-width: 525px) {
+        top: 100px;
+        left: calc(50% - 40px);
+      }
+    }
+  }
+
+}
