@@ -1,8 +1,8 @@
 @import 'style';
 
 .description, .vision {
-  border-top: 1px solid $title-color;
   border-bottom: 1px solid $title-color;
+
   .avatar-border {
     width: 220px;
     height: 300px;
@@ -79,26 +79,12 @@
     }
   }
 }
-.vision{
+
+
+.vision {
   border: none;
-  .btn-up{
-    height: 40px;
-    width: 40px;
-    background-color: $secondary-color;
-    border-radius: 10px;
-    padding-left: 9px;
-    padding-top: 7px;
-    &.fixed-bottom{
-      right: 2rem;
-      bottom: 2rem;
-      left: auto;
-    }
-    i{
-      color: white;
-      font-size: 1.5rem;
-    }
-  }
-  .title{
+
+  .title {
     color: $title-color;
     font-size: 2.1rem;
     margin-bottom: 1.2rem;
@@ -112,7 +98,8 @@
       font-size: 2rem;
     }
   }
-  .figure{
+
+  .figure {
     height: 390px;
     width: 390px;
     margin: auto;
@@ -121,7 +108,8 @@
       width: 250px;
       height: 250px;
     }
-    .vision-image, .vision-image-border{
+
+    .vision-image, .vision-image-border {
       display: inline-block;
       width: 250px;
       height: 250px;
@@ -132,11 +120,13 @@
         width: 150px;
         height: 150px;
       }
-      .torah{
+
+      .torah {
         height: 100%;
       }
     }
-    .vision-image-border{
+
+    .vision-image-border {
       border: 20px solid $secondary-color;
       top: 70px;
       left: calc(50% - 125px);
@@ -148,7 +138,8 @@
         left: calc(50% - 80px);
       }
     }
-    .image-torah{
+
+    .image-torah {
       top: 140px;
       left: calc(50% - 55px);
       z-index: -2;

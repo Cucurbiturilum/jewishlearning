@@ -1,5 +1,8 @@
+header .navbar {
+  border-bottom: 1px solid #731702;
+}
 @media (max-width: 960px) {
-  header .navbar-brand .logo {
+  header .navbar .navbar-brand .logo {
     width: 75%;
   }
 }
@@ -18,6 +21,9 @@ header .navbar .navbar-toggler .navbar-toggler-icon .fa-bars {
 }
 header .navbar .navbar-nav {
   text-align: right;
+}
+header .navbar .navbar-nav .nav-item.active .nav-link {
+  color: #F2541B;
 }
 header .navbar .navbar-nav .nav-item .nav-link {
   color: #731702;
@@ -61,6 +67,72 @@ header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   }
 }
 
+.btn-up {
+  height: 40px;
+  width: 40px;
+  background-color: #F2541B;
+  border-radius: 10px;
+  padding-left: 9px;
+  padding-top: 7px;
+}
+.btn-up.fixed-bottom {
+  right: 2rem;
+  bottom: 2rem;
+  left: auto;
+}
+.btn-up i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.courses-title {
+  border: 4px solid #731702;
+  border-radius: 7px;
+  display: inline-block;
+  margin: auto;
+  padding: 0 2rem;
+}
+.courses-title .courses-title-item {
+  color: #F2541B;
+  font-size: 1.7rem;
+  margin-bottom: 0;
+  position: relative;
+  top: -17px;
+  background-color: #fff;
+  padding: 0 1rem;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  min-height: 33rem;
+}
+.card .card-img-top {
+  min-height: 13.5rem;
+}
+.card .card-body .card-title {
+  color: #F2541B;
+  font-size: 1.2rem;
+}
+.card .card-body .card-text {
+  color: #1F2326;
+}
+.card .card-footer {
+  background-color: white;
+}
+.card .card-footer .card-text {
+  color: #1F2326;
+}
+.card .card-footer .price {
+  color: #731702;
+  font-size: 1.2rem;
+}
+.card .card-footer .price span {
+  color: #F2541B;
+}
+
 footer {
   background-color: #731702;
 }
@@ -90,7 +162,6 @@ footer .nav .nav-item .nav-link {
 }
 
 .description, .vision {
-  border-top: 1px solid #731702;
   border-bottom: 1px solid #731702;
 }
 .description .avatar-border, .vision .avatar-border {
@@ -188,23 +259,6 @@ footer .nav .nav-item .nav-link {
 
 .vision {
   border: none;
-}
-.vision .btn-up {
-  height: 40px;
-  width: 40px;
-  background-color: #F2541B;
-  border-radius: 10px;
-  padding-left: 9px;
-  padding-top: 7px;
-}
-.vision .btn-up.fixed-bottom {
-  right: 2rem;
-  bottom: 2rem;
-  left: auto;
-}
-.vision .btn-up i {
-  color: white;
-  font-size: 1.5rem;
 }
 .vision .title {
   color: #731702;
