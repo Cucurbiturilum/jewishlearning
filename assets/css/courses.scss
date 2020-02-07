@@ -1,3 +1,40 @@
 @import "style";
 
-
+.gallery{
+  position: relative;
+  border: 15px solid $secondary-color;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: calc(2rem + 50px);
+  margin-bottom: calc(2rem + 50px);
+  color: $secondary-color;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  @media (max-width: 768px){
+    height: 200px;
+    width: 200px;
+    margin-top: calc(2rem + 40px);
+    font-size: 0.8rem;
+  }
+  .gallery-preview-image{
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    @media (max-width: 768px){
+      height: 200px;
+      width: 200px;
+      bottom: 40px;
+      left: 40px;
+    }
+  }
+}

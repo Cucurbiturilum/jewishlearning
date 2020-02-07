@@ -1,0 +1,207 @@
+header .navbar {
+  border-bottom: 1px solid #731702;
+}
+@media (max-width: 960px) {
+  header .navbar .navbar-brand .logo {
+    width: 75%;
+  }
+}
+header .navbar h1 {
+  color: #00BFC0;
+  font-size: 2rem;
+}
+@media (max-width: 960px) {
+  header .navbar h1 {
+    font-size: 1.5rem;
+  }
+}
+header .navbar .navbar-toggler .navbar-toggler-icon .fa-bars {
+  color: #731702;
+  font-size: 2rem;
+}
+header .navbar .navbar-nav {
+  text-align: right;
+}
+header .navbar .navbar-nav .nav-item.active .nav-link {
+  color: #F2541B;
+}
+header .navbar .navbar-nav .nav-item .nav-link {
+  color: #731702;
+  font-size: 1.2rem;
+}
+@media (min-width: 960px) and (max-width: 1440px) {
+  header .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1440px) {
+  header .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+header .navbar .navbar-nav .nav-item .dropdown-menu {
+  background-color: rgba(226, 226, 226, 0.7);
+  border: none;
+}
+@media (max-width: 960px) {
+  header .navbar .navbar-nav .nav-item .dropdown-menu {
+    background-color: transparent;
+    text-align: right;
+  }
+}
+header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: #1F2326;
+  padding: 0.5rem 1.25rem;
+}
+header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:active {
+  background-color: rgba(226, 226, 226, 0.5);
+}
+header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: transparent;
+}
+@media (max-width: 960px) {
+  header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+.btn-up {
+  height: 40px;
+  width: 40px;
+  background-color: #F2541B;
+  border-radius: 10px;
+  padding-left: 9px;
+  padding-top: 7px;
+}
+.btn-up.fixed-bottom {
+  right: 2rem;
+  bottom: 2rem;
+  left: auto;
+}
+.btn-up i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.courses-title {
+  border: 4px solid #731702;
+  border-radius: 7px;
+  display: inline-block;
+  margin: auto;
+  padding: 0 2rem;
+}
+.courses-title .courses-title-item {
+  color: #F2541B;
+  font-size: 1.7rem;
+  margin-bottom: 0;
+  position: relative;
+  top: -17px;
+  background-color: #fff;
+  padding: 0 1rem;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  min-height: 33rem;
+}
+.card .card-img-top {
+  min-height: 13.5rem;
+}
+.card .card-body .card-title {
+  color: #F2541B;
+  font-size: 1.2rem;
+}
+.card .card-body .card-text {
+  color: #1F2326;
+}
+.card .card-footer {
+  background-color: white;
+}
+.card .card-footer .card-text {
+  color: #1F2326;
+}
+.card .card-footer .price {
+  color: #731702;
+  font-size: 1.2rem;
+}
+.card .card-footer .price span {
+  color: #F2541B;
+}
+
+footer {
+  background-color: #731702;
+}
+footer .social-link {
+  height: 30px;
+  width: 30px;
+  background-color: #F2541B;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+footer .social-link i {
+  color: white;
+  font-size: 1.1rem;
+}
+footer h3 {
+  color: #F2541B;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+footer .nav .nav-item .nav-link {
+  padding: 0.5rem 3rem 0.5rem 0;
+  color: white;
+}
+
+.gallery {
+  position: relative;
+  border: 15px solid #F2541B;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: calc(2rem + 50px);
+  margin-bottom: calc(2rem + 50px);
+  color: #F2541B;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .gallery {
+    height: 200px;
+    width: 200px;
+    margin-top: calc(2rem + 40px);
+    font-size: 0.8rem;
+  }
+}
+.gallery .gallery-preview-image {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+@media (max-width: 768px) {
+  .gallery .gallery-preview-image {
+    height: 200px;
+    width: 200px;
+    bottom: 40px;
+    left: 40px;
+  }
+}
+
+/*# sourceMappingURL=courses.css.map */
