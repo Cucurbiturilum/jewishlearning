@@ -109,8 +109,12 @@ header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   overflow: hidden;
   min-height: 33rem;
 }
-.card .card-img-top {
-  min-height: 13.5rem;
+.card .card-img {
+  height: 13.5rem;
+  overflow: hidden;
+}
+.card .card-img .card-img-top {
+  height: 100%;
 }
 .card .card-body .card-title {
   color: #F2541B;
@@ -202,6 +206,43 @@ footer .nav .nav-item .nav-link {
     bottom: 40px;
     left: 40px;
   }
+}
+
+.teacher .gallery {
+  border: 15px solid #F2541B;
+  height: 280px;
+  width: 220px;
+}
+@media (max-width: 768px) {
+  .teacher .gallery {
+    width: 180px;
+    height: 260px;
+    margin-top: calc(2rem + 40px);
+  }
+}
+.teacher .gallery .gallery-preview-image {
+  height: 280px;
+  width: 220px;
+}
+@media (max-width: 768px) {
+  .teacher .gallery .gallery-preview-image {
+    width: 180px;
+    height: 260px;
+    bottom: 40px;
+    left: 40px;
+  }
+  .teacher .gallery .gallery-preview-image img {
+    height: 100%;
+  }
+}
+.teacher .name {
+  color: #F2541B;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.teacher .description {
+  color: #1F2326;
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=courses.css.map */

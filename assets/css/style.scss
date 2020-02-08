@@ -130,8 +130,12 @@ header {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
   min-height: 33rem;
-  .card-img-top{
-    min-height: 13.5rem;
+  .card-img{
+    height: 13.5rem;
+    overflow: hidden;
+    .card-img-top{
+      height: 100%;
+    }
   }
   .card-body{
     .card-title{
@@ -193,3 +197,4 @@ footer {
     }
   }
 }
+

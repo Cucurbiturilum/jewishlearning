@@ -109,8 +109,12 @@ header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   overflow: hidden;
   min-height: 33rem;
 }
-.card .card-img-top {
-  min-height: 13.5rem;
+.card .card-img {
+  height: 13.5rem;
+  overflow: hidden;
+}
+.card .card-img .card-img-top {
+  height: 100%;
 }
 .card .card-body .card-title {
   color: #F2541B;

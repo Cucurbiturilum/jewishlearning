@@ -1,6 +1,6 @@
 @import "style";
 
-.gallery{
+.gallery {
   position: relative;
   border: 15px solid $secondary-color;
   border-radius: 10px;
@@ -15,13 +15,14 @@
   padding-left: 0.5rem;
   font-size: 1rem;
   text-align: center;
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     height: 200px;
     width: 200px;
     margin-top: calc(2rem + 40px);
     font-size: 0.8rem;
   }
-  .gallery-preview-image{
+
+  .gallery-preview-image {
     height: 300px;
     width: 300px;
     overflow: hidden;
@@ -30,11 +31,48 @@
     position: absolute;
     bottom: 50px;
     left: 50px;
-    @media (max-width: 768px){
+    @media (max-width: 768px) {
       height: 200px;
       width: 200px;
       bottom: 40px;
       left: 40px;
     }
+  }
+}
+
+.teacher {
+  .gallery {
+    border: 15px solid $secondary-color;
+    height: 280px;
+    width: 220px;
+    @media (max-width: 768px) {
+      width: 180px;
+      height: 260px;
+      margin-top: calc(2rem + 40px);
+    }
+
+    .gallery-preview-image {
+      height: 280px;
+      width: 220px;
+      @media (max-width: 768px) {
+        width: 180px;
+        height: 260px;
+        bottom: 40px;
+        left: 40px;
+       img{
+         height: 100%;
+       }
+      }
+    }
+  }
+
+  .name {
+    color: $secondary-color;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .description{
+    color: $text-color;
+    font-size: 1.3rem;
   }
 }
