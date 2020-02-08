@@ -59,9 +59,9 @@
         height: 260px;
         bottom: 40px;
         left: 40px;
-       img{
-         height: 100%;
-       }
+        img {
+          height: 100%;
+        }
       }
     }
   }
@@ -71,8 +71,108 @@
     font-size: 2rem;
     font-weight: 400;
   }
-  .description{
+
+  .description {
     color: $text-color;
     font-size: 1.3rem;
+  }
+}
+
+.support {
+  .form-row {
+    padding-bottom: 2rem;
+    &.border-bottom{
+      border-color: $secondary-color!important;
+    }
+    .form-group {
+      .form-input {
+        color: $title-color;
+        font-size: 1.2rem;
+      }
+      .form-control{
+        height: 3rem;
+        border-color: $title-color;
+        border-radius: 15px;
+        color: $title-color;
+        &:focus{
+          box-shadow: none;
+        }
+        &::placeholder{
+          color: $text-color;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  h2{
+    color: $secondary-color;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .donations {
+    margin-top: 2rem;
+    p {
+      color: $secondary-color;
+      font-size: 1.2rem;
+    }
+    .form-check{
+      margin-bottom: 0.6rem;
+      .form-check-label{
+        color: $text-color;
+        font-size: 1.1rem;
+      }
+      .form-control{
+        border-color: $title-color;
+        height: 1.8rem;
+        border-radius: 15px;
+      }
+    }
+    .payment-method {
+      .form-check {
+        padding-left: 0 !important;
+        margin-right: 1rem;
+
+        .form-check-label {
+          overflow: hidden;
+          height: 40px;
+          width: 70px;
+
+          &.active {
+            border: 1px solid red;
+          }
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        @media (max-width: 520px) {
+          height: 40px;
+          width: 60px;
+        }
+      }
+    }
+    .captcha{
+      padding-left: 1.5rem;
+      margin-top: 1.5rem;
+      img{
+        height: 50px;
+        width: 200px;
+      }
+    }
+  }
+
+  .donate{
+    background-color: $secondary-color;
+    color: white;
+    font-size: 1.4rem;
+    padding: 0.5rem 3rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
   }
 }

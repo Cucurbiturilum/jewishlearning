@@ -51,7 +51,7 @@ header .navbar .navbar-nav .nav-item .dropdown-menu {
   }
 }
 header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-  color: #1F2326;
+  color: #515e64;
   padding: 0.5rem 1.25rem;
 }
 header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:active {
@@ -121,13 +121,13 @@ header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   font-size: 1.2rem;
 }
 .card .card-body .card-text {
-  color: #1F2326;
+  color: #515e64;
 }
 .card .card-footer {
   background-color: white;
 }
 .card .card-footer .card-text {
-  color: #1F2326;
+  color: #515e64;
 }
 .card .card-footer .price {
   color: #731702;
@@ -241,8 +241,96 @@ footer .nav .nav-item .nav-link {
   font-weight: 400;
 }
 .teacher .description {
-  color: #1F2326;
+  color: #515e64;
   font-size: 1.3rem;
+}
+
+.support .form-row {
+  padding-bottom: 2rem;
+}
+.support .form-row.border-bottom {
+  border-color: #F2541B !important;
+}
+.support .form-row .form-group .form-input {
+  color: #731702;
+  font-size: 1.2rem;
+}
+.support .form-row .form-group .form-control {
+  height: 3rem;
+  border-color: #731702;
+  border-radius: 15px;
+  color: #731702;
+}
+.support .form-row .form-group .form-control:focus {
+  box-shadow: none;
+}
+.support .form-row .form-group .form-control::placeholder {
+  color: #515e64;
+  font-size: 0.9rem;
+}
+.support h2 {
+  color: #F2541B;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.support .donations {
+  margin-top: 2rem;
+}
+.support .donations p {
+  color: #F2541B;
+  font-size: 1.2rem;
+}
+.support .donations .form-check {
+  margin-bottom: 0.6rem;
+}
+.support .donations .form-check .form-check-label {
+  color: #515e64;
+  font-size: 1.1rem;
+}
+.support .donations .form-check .form-control {
+  border-color: #731702;
+  height: 1.8rem;
+  border-radius: 15px;
+}
+.support .donations .payment-method .form-check {
+  padding-left: 0 !important;
+  margin-right: 1rem;
+}
+.support .donations .payment-method .form-check .form-check-label {
+  overflow: hidden;
+  height: 40px;
+  width: 70px;
+}
+.support .donations .payment-method .form-check .form-check-label.active {
+  border: 1px solid red;
+}
+.support .donations .payment-method .form-check .form-check-label img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 520px) {
+  .support .donations .payment-method .form-check {
+    height: 40px;
+    width: 60px;
+  }
+}
+.support .donations .captcha {
+  padding-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+.support .donations .captcha img {
+  height: 50px;
+  width: 200px;
+}
+.support .donate {
+  background-color: #F2541B;
+  color: white;
+  font-size: 1.4rem;
+  padding: 0.5rem 3rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=courses.css.map */
