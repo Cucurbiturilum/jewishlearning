@@ -333,4 +333,25 @@ footer .nav .nav-item .nav-link {
   margin-bottom: 2rem;
 }
 
+.contact .form-group .form-input {
+  color: #731702;
+  font-size: 1.2rem;
+}
+.contact .form-group .form-control {
+  height: 3rem;
+  border-color: #731702;
+  border-radius: 15px;
+  color: #731702;
+}
+.contact .form-group .form-control.message {
+  height: 6rem;
+}
+.contact .form-group .form-control:focus {
+  box-shadow: none;
+}
+.contact .form-group .form-control::placeholder {
+  color: #515e64;
+  font-size: 0.9rem;
+}
+
 /*# sourceMappingURL=courses.css.map */

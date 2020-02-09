@@ -176,3 +176,29 @@
     margin-bottom: 2rem;
   }
 }
+
+.contact{
+
+  .form-group {
+    .form-input {
+      color: $title-color;
+      font-size: 1.2rem;
+    }
+    .form-control{
+      height: 3rem;
+      border-color: $title-color;
+      border-radius: 15px;
+      color: $title-color;
+      &.message{
+        height: 6rem;
+      }
+      &:focus{
+        box-shadow: none;
+      }
+      &::placeholder{
+        color: $text-color;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
