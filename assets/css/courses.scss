@@ -78,7 +78,7 @@
   }
 }
 
-.support {
+.support, .contact {
   .form-row {
     padding-bottom: 2rem;
     &.border-bottom{
@@ -178,6 +178,14 @@
 }
 
 .contact{
+
+  .contact-address, .contact-email, .contact-phone-number{
+    color: $title-color;
+    .nav-link{
+      color: $title-color;
+      padding: 0;
+    }
+  }
 
   .form-group {
     .form-input {

@@ -245,86 +245,86 @@ footer .nav .nav-item .nav-link {
   font-size: 1.3rem;
 }
 
-.support .form-row {
+.support .form-row, .contact .form-row {
   padding-bottom: 2rem;
 }
-.support .form-row.border-bottom {
+.support .form-row.border-bottom, .contact .form-row.border-bottom {
   border-color: #F2541B !important;
 }
-.support .form-row .form-group .form-input {
+.support .form-row .form-group .form-input, .contact .form-row .form-group .form-input {
   color: #731702;
   font-size: 1.2rem;
 }
-.support .form-row .form-group .form-control {
+.support .form-row .form-group .form-control, .contact .form-row .form-group .form-control {
   height: 3rem;
   border-color: #731702;
   border-radius: 15px;
   color: #731702;
 }
-.support .form-row .form-group .form-control:focus {
+.support .form-row .form-group .form-control:focus, .contact .form-row .form-group .form-control:focus {
   box-shadow: none;
 }
-.support .form-row .form-group .form-control::placeholder {
+.support .form-row .form-group .form-control::placeholder, .contact .form-row .form-group .form-control::placeholder {
   color: #515e64;
   font-size: 0.9rem;
 }
-.support h2 {
+.support h2, .contact h2 {
   color: #F2541B;
   font-size: 1.5rem;
   font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-.support .donations {
+.support .donations, .contact .donations {
   margin-top: 2rem;
 }
-.support .donations p {
+.support .donations p, .contact .donations p {
   color: #F2541B;
   font-size: 1.2rem;
 }
-.support .donations .form-check {
+.support .donations .form-check, .contact .donations .form-check {
   margin-bottom: 0.6rem;
 }
-.support .donations .form-check .form-check-label {
+.support .donations .form-check .form-check-label, .contact .donations .form-check .form-check-label {
   color: #515e64;
   font-size: 1.1rem;
 }
-.support .donations .form-check .form-control {
+.support .donations .form-check .form-control, .contact .donations .form-check .form-control {
   border-color: #731702;
   height: 1.8rem;
   border-radius: 15px;
 }
-.support .donations .payment-method .form-check {
+.support .donations .payment-method .form-check, .contact .donations .payment-method .form-check {
   padding-left: 0 !important;
   margin-right: 1rem;
 }
-.support .donations .payment-method .form-check .form-check-label {
+.support .donations .payment-method .form-check .form-check-label, .contact .donations .payment-method .form-check .form-check-label {
   overflow: hidden;
   height: 40px;
   width: 70px;
 }
-.support .donations .payment-method .form-check .form-check-label.active {
+.support .donations .payment-method .form-check .form-check-label.active, .contact .donations .payment-method .form-check .form-check-label.active {
   border: 1px solid red;
 }
-.support .donations .payment-method .form-check .form-check-label img {
+.support .donations .payment-method .form-check .form-check-label img, .contact .donations .payment-method .form-check .form-check-label img {
   width: 100%;
   height: 100%;
 }
 @media (max-width: 520px) {
-  .support .donations .payment-method .form-check {
+  .support .donations .payment-method .form-check, .contact .donations .payment-method .form-check {
     height: 40px;
     width: 60px;
   }
 }
-.support .donations .captcha {
+.support .donations .captcha, .contact .donations .captcha {
   padding-left: 1.5rem;
   margin-top: 1.5rem;
 }
-.support .donations .captcha img {
+.support .donations .captcha img, .contact .donations .captcha img {
   height: 50px;
   width: 200px;
 }
-.support .donate {
+.support .donate, .contact .donate {
   background-color: #F2541B;
   color: white;
   font-size: 1.4rem;
@@ -333,6 +333,13 @@ footer .nav .nav-item .nav-link {
   margin-bottom: 2rem;
 }
 
+.contact .contact-address, .contact .contact-email, .contact .contact-phone-number {
+  color: #731702;
+}
+.contact .contact-address .nav-link, .contact .contact-email .nav-link, .contact .contact-phone-number .nav-link {
+  color: #731702;
+  padding: 0;
+}
 .contact .form-group .form-input {
   color: #731702;
   font-size: 1.2rem;
