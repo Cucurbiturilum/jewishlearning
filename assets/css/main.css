@@ -107,7 +107,7 @@ header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   border-radius: 10px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  min-height: 33rem;
+  height: 33rem;
 }
 .card .card-img {
   height: 13.5rem;
@@ -132,9 +132,19 @@ header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 .card .card-footer .price {
   color: #731702;
   font-size: 1.2rem;
+  margin-bottom: 0;
 }
 .card .card-footer .price span {
   color: #F2541B;
+}
+.card .card-footer .buy {
+  color: white;
+  background-color: #F2541B;
+  padding: 0.2rem 1rem;
+  border-radius: 20px;
+}
+.card .card-footer .buy:focus {
+  box-shadow: none;
 }
 
 footer {

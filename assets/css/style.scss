@@ -113,7 +113,8 @@ header {
   display: inline-block;
   margin: auto;
   padding: 0 2rem;
-  .courses-title-item{
+
+  .courses-title-item {
     color: $secondary-color;
     font-size: 1.7rem;
     margin-bottom: 0;
@@ -129,33 +130,53 @@ header {
   border-radius: 10px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  min-height: 33rem;
-  .card-img{
+  height: 33rem;
+
+  .card-img {
     height: 13.5rem;
     overflow: hidden;
-    .card-img-top{
+
+    .card-img-top {
       height: 100%;
     }
   }
-  .card-body{
-    .card-title{
+
+  .card-body {
+    .card-title {
       color: $secondary-color;
       font-size: 1.2rem;
     }
-    .card-text{
+
+    .card-text {
       color: $text-color;
     }
   }
-  .card-footer{
+
+  .card-footer {
     background-color: white;
-    .card-text{
+
+    .card-text {
       color: $text-color;
     }
-    .price{
+
+    .price {
       color: $title-color;
       font-size: 1.2rem;
-      span{
+      margin-bottom: 0;
+
+      span {
         color: $secondary-color;
+      }
+    }
+
+    .buy {
+      color: white;
+      background-color: $secondary-color;
+      padding: 0.2rem 1rem;
+      border-radius: 20px;
+
+      &:focus {
+        box-shadow: none;
       }
     }
   }

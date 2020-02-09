@@ -107,7 +107,7 @@ header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   border-radius: 10px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  min-height: 33rem;
+  height: 33rem;
 }
 .card .card-img {
   height: 13.5rem;
@@ -132,9 +132,19 @@ header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 .card .card-footer .price {
   color: #731702;
   font-size: 1.2rem;
+  margin-bottom: 0;
 }
 .card .card-footer .price span {
   color: #F2541B;
+}
+.card .card-footer .buy {
+  color: white;
+  background-color: #F2541B;
+  padding: 0.2rem 1rem;
+  border-radius: 20px;
+}
+.card .card-footer .buy:focus {
+  box-shadow: none;
 }
 
 footer {
@@ -245,86 +255,86 @@ footer .nav .nav-item .nav-link {
   font-size: 1.3rem;
 }
 
-.support .form-row, .contact .form-row {
+.support .form-row, .contact .form-row, .course .form-row {
   padding-bottom: 2rem;
 }
-.support .form-row.border-bottom, .contact .form-row.border-bottom {
+.support .form-row.border-bottom, .contact .form-row.border-bottom, .course .form-row.border-bottom {
   border-color: #F2541B !important;
 }
-.support .form-row .form-group .form-input, .contact .form-row .form-group .form-input {
+.support .form-row .form-group .form-input, .contact .form-row .form-group .form-input, .course .form-row .form-group .form-input {
   color: #731702;
   font-size: 1.2rem;
 }
-.support .form-row .form-group .form-control, .contact .form-row .form-group .form-control {
+.support .form-row .form-group .form-control, .contact .form-row .form-group .form-control, .course .form-row .form-group .form-control {
   height: 3rem;
   border-color: #731702;
   border-radius: 15px;
   color: #731702;
 }
-.support .form-row .form-group .form-control:focus, .contact .form-row .form-group .form-control:focus {
+.support .form-row .form-group .form-control:focus, .contact .form-row .form-group .form-control:focus, .course .form-row .form-group .form-control:focus {
   box-shadow: none;
 }
-.support .form-row .form-group .form-control::placeholder, .contact .form-row .form-group .form-control::placeholder {
+.support .form-row .form-group .form-control::placeholder, .contact .form-row .form-group .form-control::placeholder, .course .form-row .form-group .form-control::placeholder {
   color: #515e64;
   font-size: 0.9rem;
 }
-.support h2, .contact h2 {
+.support h2, .contact h2, .course h2 {
   color: #F2541B;
   font-size: 1.5rem;
   font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-.support .donations, .contact .donations {
+.support .donations, .contact .donations, .course .donations {
   margin-top: 2rem;
 }
-.support .donations p, .contact .donations p {
+.support .donations p, .contact .donations p, .course .donations p {
   color: #F2541B;
   font-size: 1.2rem;
 }
-.support .donations .form-check, .contact .donations .form-check {
+.support .donations .form-check, .contact .donations .form-check, .course .donations .form-check {
   margin-bottom: 0.6rem;
 }
-.support .donations .form-check .form-check-label, .contact .donations .form-check .form-check-label {
+.support .donations .form-check .form-check-label, .contact .donations .form-check .form-check-label, .course .donations .form-check .form-check-label {
   color: #515e64;
   font-size: 1.1rem;
 }
-.support .donations .form-check .form-control, .contact .donations .form-check .form-control {
+.support .donations .form-check .form-control, .contact .donations .form-check .form-control, .course .donations .form-check .form-control {
   border-color: #731702;
   height: 1.8rem;
   border-radius: 15px;
 }
-.support .donations .payment-method .form-check, .contact .donations .payment-method .form-check {
+.support .donations .payment-method .form-check, .contact .donations .payment-method .form-check, .course .donations .payment-method .form-check {
   padding-left: 0 !important;
   margin-right: 1rem;
 }
-.support .donations .payment-method .form-check .form-check-label, .contact .donations .payment-method .form-check .form-check-label {
+.support .donations .payment-method .form-check .form-check-label, .contact .donations .payment-method .form-check .form-check-label, .course .donations .payment-method .form-check .form-check-label {
   overflow: hidden;
   height: 40px;
   width: 70px;
 }
-.support .donations .payment-method .form-check .form-check-label.active, .contact .donations .payment-method .form-check .form-check-label.active {
+.support .donations .payment-method .form-check .form-check-label.active, .contact .donations .payment-method .form-check .form-check-label.active, .course .donations .payment-method .form-check .form-check-label.active {
   border: 1px solid red;
 }
-.support .donations .payment-method .form-check .form-check-label img, .contact .donations .payment-method .form-check .form-check-label img {
+.support .donations .payment-method .form-check .form-check-label img, .contact .donations .payment-method .form-check .form-check-label img, .course .donations .payment-method .form-check .form-check-label img {
   width: 100%;
   height: 100%;
 }
 @media (max-width: 520px) {
-  .support .donations .payment-method .form-check, .contact .donations .payment-method .form-check {
+  .support .donations .payment-method .form-check, .contact .donations .payment-method .form-check, .course .donations .payment-method .form-check {
     height: 40px;
     width: 60px;
   }
 }
-.support .donations .captcha, .contact .donations .captcha {
+.support .donations .captcha, .contact .donations .captcha, .course .donations .captcha {
   padding-left: 1.5rem;
   margin-top: 1.5rem;
 }
-.support .donations .captcha img, .contact .donations .captcha img {
+.support .donations .captcha img, .contact .donations .captcha img, .course .donations .captcha img {
   height: 50px;
   width: 200px;
 }
-.support .donate, .contact .donate {
+.support .donate, .contact .donate, .course .donate {
   background-color: #F2541B;
   color: white;
   font-size: 1.4rem;
@@ -359,6 +369,36 @@ footer .nav .nav-item .nav-link {
 .contact .form-group .form-control::placeholder {
   color: #515e64;
   font-size: 0.9rem;
+}
+
+.course .course-img {
+  border-radius: 20px;
+}
+.course .course-description {
+  counter-reset: #515e64;
+  font-size: 1.5rem;
+}
+.course .course-footer {
+  font-size: 1.5rem;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+.course .course-footer .price {
+  color: #515e64;
+  margin-bottom: 0;
+}
+.course .course-footer .price span {
+  color: #F2541B;
+}
+.course .course-footer .buy {
+  color: white;
+  background-color: #F2541B;
+  padding: 0.5rem 3rem;
+  border-radius: 15px;
+}
+.course .course-footer .buy:focus {
+  box-shadow: none;
 }
 
 /*# sourceMappingURL=courses.css.map */

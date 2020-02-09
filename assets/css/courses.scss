@@ -78,26 +78,31 @@
   }
 }
 
-.support, .contact {
+.support, .contact, .course {
   .form-row {
     padding-bottom: 2rem;
-    &.border-bottom{
-      border-color: $secondary-color!important;
+
+    &.border-bottom {
+      border-color: $secondary-color !important;
     }
+
     .form-group {
       .form-input {
         color: $title-color;
         font-size: 1.2rem;
       }
-      .form-control{
+
+      .form-control {
         height: 3rem;
         border-color: $title-color;
         border-radius: 15px;
         color: $title-color;
-        &:focus{
+
+        &:focus {
           box-shadow: none;
         }
-        &::placeholder{
+
+        &::placeholder {
           color: $text-color;
           font-size: 0.9rem;
         }
@@ -105,7 +110,7 @@
     }
   }
 
-  h2{
+  h2 {
     color: $secondary-color;
     font-size: 1.5rem;
     font-weight: 400;
@@ -115,22 +120,27 @@
 
   .donations {
     margin-top: 2rem;
+
     p {
       color: $secondary-color;
       font-size: 1.2rem;
     }
-    .form-check{
+
+    .form-check {
       margin-bottom: 0.6rem;
-      .form-check-label{
+
+      .form-check-label {
         color: $text-color;
         font-size: 1.1rem;
       }
-      .form-control{
+
+      .form-control {
         border-color: $title-color;
         height: 1.8rem;
         border-radius: 15px;
       }
     }
+
     .payment-method {
       .form-check {
         padding-left: 0 !important;
@@ -157,17 +167,19 @@
         }
       }
     }
-    .captcha{
+
+    .captcha {
       padding-left: 1.5rem;
       margin-top: 1.5rem;
-      img{
+
+      img {
         height: 50px;
         width: 200px;
       }
     }
   }
 
-  .donate{
+  .donate {
     background-color: $secondary-color;
     color: white;
     font-size: 1.4rem;
@@ -177,11 +189,12 @@
   }
 }
 
-.contact{
+.contact {
 
-  .contact-address, .contact-email, .contact-phone-number{
+  .contact-address, .contact-email, .contact-phone-number {
     color: $title-color;
-    .nav-link{
+
+    .nav-link {
       color: $title-color;
       padding: 0;
     }
@@ -192,20 +205,58 @@
       color: $title-color;
       font-size: 1.2rem;
     }
-    .form-control{
+
+    .form-control {
       height: 3rem;
       border-color: $title-color;
       border-radius: 15px;
       color: $title-color;
-      &.message{
+
+      &.message {
         height: 6rem;
       }
-      &:focus{
+
+      &:focus {
         box-shadow: none;
       }
-      &::placeholder{
+
+      &::placeholder {
         color: $text-color;
         font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+.course {
+  .course-img {
+    border-radius: 20px;
+  }
+
+  .course-description {
+    counter-reset: $text-color;
+    font-size: 1.5rem;
+  }
+
+  .course-footer {
+    font-size: 1.5rem;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    .price {
+      color: $text-color;
+      margin-bottom: 0;
+      span{
+        color: $secondary-color;
+      }
+    }
+    .buy{
+      color: white;
+      background-color: $secondary-color;
+      padding: 0.5rem 3rem;
+      border-radius: 15px;
+      &:focus{
+        box-shadow: none;
       }
     }
   }
